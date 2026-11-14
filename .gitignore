@@ -1,0 +1,14 @@
+# Build outputs and executables
+*.exe
+*.dll
+*.out
+*.obj
+*.o
+
+# Directories
+bin/
+build/
+.vscode/
+
+# Local libraries or heavy dependency folders if they aren't meant to be tracked source code
+# (Keep 'include/' if you want to track custom headers, but third-party libs like SDL3 can often be omitted or handled via external dependencies)
